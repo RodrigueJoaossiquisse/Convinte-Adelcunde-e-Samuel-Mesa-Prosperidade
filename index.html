@@ -52,7 +52,7 @@
       filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.6));
     }
 
-    /* ===== OVERLAY (TELA INICIAL) - SEM SCROLL ===== */
+    /* ===== OVERLAY (TELA INICIAL) ===== */
     .overlay {
       position: absolute;
       inset: 0;
@@ -86,7 +86,6 @@
       margin-bottom: 0.5rem;
     }
 
-    /* Nome da NOIVA - Great Vibes */
     .name-green.bride {
       font-family: 'Great Vibes', cursive;
       font-size: 4rem;
@@ -95,7 +94,6 @@
       text-shadow: 0 2px 10px rgba(45, 90, 45, 0.1);
     }
 
-    /* Nome do NOIVO - Great Vibes */
     .name-green.groom {
       font-family: 'Great Vibes', cursive;
       font-size: 3.2rem;
@@ -104,7 +102,6 @@
       text-shadow: 0 2px 10px rgba(45, 90, 45, 0.1);
     }
 
-    /* ===== LETRA INICIAL (A E S) - ARIZONIA ===== */
     .initial {
       font-family: 'Arizonia', cursive;
       font-size: 1.15em;
@@ -133,7 +130,6 @@
       50% { opacity: 1; }
     }
 
-    /* ===== ANEL (IMAGEM PNG) ===== */
     .alianca-img {
       width: 150px;
       height: auto;
@@ -142,7 +138,6 @@
       margin: 0.4rem 0;
     }
 
-    /* ===== CONTEÚDO (PÁGINA PRINCIPAL) ===== */
     .page {
       padding: 1.8rem 1.5rem 2.5rem;
       width: 100%;
@@ -224,7 +219,6 @@
     .noivos-wrapper .name-green.bride { font-size: 3.8rem; }
     .noivos-wrapper .name-green.groom { font-size: 3rem; }
 
-    /* ===== AS SUAS DUAS FOTOS NA PÁGINA PRINCIPAL ===== */
     .molduras-container {
       display: flex;
       justify-content: center;
@@ -240,7 +234,6 @@
       filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
     }
 
-    /* ===== CERIMÓNIA E RECEPÇÃO ===== */
     .ceremony-section {
       background: rgba(255,255,255,0.8);
       border-radius: 24px;
@@ -474,7 +467,6 @@
       letter-spacing: 0.5px;
     }
 
-    /* ===== RODAPÉ ===== */
     .footer-note {
       font-size: 0.6rem;
       color: #888;
@@ -509,7 +501,6 @@
       50% { opacity: 0.5; transform: scale(0.95); }
     }
 
-    /* ===== RESPONSIVE ===== */
     @media (max-width: 420px) {
       .page { padding: 1rem 1rem 1.8rem; }
       .top-blessing { font-size: 1.3rem; }
@@ -526,17 +517,14 @@
       .noivos-wrapper .name-green.groom { font-size: 2.6rem; }
       .overlay .texto-inicial { font-size: 0.75rem; }
       .overlay .hint { font-size: 0.6rem; }
-      .mesa-prosperidade { font-size: 1.5rem; }
+      .mesa-prosperidade { font-size: 1.4rem; }
     }
   </style>
 </head>
 <body>
 <div class="app">
 
-  <!-- ===== OVERLAY (TELA INICIAL) ===== -->
   <div class="overlay" id="overlay">
-    
-    <!-- Molduras vintage douradas nos cantos -->
     <div class="canto-vintage canto-superior-esquerdo">
       <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -575,12 +563,9 @@
       </svg>
     </div>
 
-    <!-- Nomes com anel -->
     <div class="overlay-names">
       <span class="name-green bride"><span class="initial">A</span>delcunde</span>
-      
       <img src="https://raw.githubusercontent.com/RodrigueJoaossiquisse/Casamento-Adelcunde-e-Samuel/main/img%20anel.png" alt="Anel" class="alianca-img">
-
       <span class="name-green groom"><span class="initial">S</span>amuel</span>
     </div>
 
@@ -588,7 +573,6 @@
     <div class="hint">♫ a música vai começar</div>
   </div>
 
-  <!-- ===== CONTEÚDO (PÁGINA PRINCIPAL) ===== -->
   <div class="page" id="pageContent">
 
     <div class="top-blessing">
@@ -618,13 +602,10 @@
 
     <div class="noivos-wrapper">
       <span class="name-green bride"><span class="initial">A</span>delcunde</span>
-      
       <img src="https://raw.githubusercontent.com/RodrigueJoaossiquisse/Casamento-Adelcunde-e-Samuel/main/img%20anel.png" alt="Anel" class="alianca-img">
-
       <span class="name-green groom"><span class="initial">S</span>amuel</span>
     </div>
 
-    <!-- ===== AS SUAS DUAS FOTOS NA PÁGINA PRINCIPAL ===== -->
     <div class="molduras-container">
       <img src="https://raw.githubusercontent.com/RodrigueJoaossiquisse/Imagens-do-Centro-de-Recusos/main/Imagem%20a%20esquerda.jpg" alt="Moldura Esquerda">
       <img src="https://raw.githubusercontent.com/RodrigueJoaossiquisse/Imagens-do-Centro-de-Recusos/main/Imagem%20a%20direita.jpg" alt="Moldura Direita">
@@ -653,46 +634,46 @@
         <div class="day-label">Q</div>
         <div class="day-label">S</div>
         <div class="day-label">S</div>
-        
+
+        <div class="day-empty"></div>
         <div class="day-empty"></div>
         <div class="day-empty"></div>
         <div class="day-empty"></div>
         <div class="day">1</div>
         <div class="day">2</div>
         <div class="day">3</div>
+
         <div class="day">4</div>
-        
         <div class="day">5</div>
         <div class="day">6</div>
         <div class="day">7</div>
         <div class="day">8</div>
         <div class="day">9</div>
         <div class="day">10</div>
+
         <div class="day">11</div>
-        
         <div class="day">12</div>
         <div class="day">13</div>
         <div class="day">14</div>
         <div class="day">15</div>
         <div class="day">16</div>
         <div class="day">17</div>
+
         <div class="day">18</div>
-        
         <div class="day">19</div>
         <div class="day">20</div>
         <div class="day">21</div>
         <div class="day">22</div>
         <div class="day">23</div>
         <div class="day">24</div>
+
         <div class="day">25</div>
-        
         <div class="day">26</div>
         <div class="day">27</div>
         <div class="day">28</div>
         <div class="day">29</div>
         <div class="day">30</div>
         <div class="day highlight">31</div>
-        <div class="day-empty"></div>
       </div>
       <div class="calendar-footer">O grande dia!</div>
     </div>
@@ -711,7 +692,6 @@
       <span class="track">Nilangile Wena</span>
     </div>
 
-    <!-- ===== RODAPÉ COM MESA PROSPERIDADE ===== -->
     <div class="footer-note">
       <div class="mesa-prosperidade">Mesa Prosperidade</div>
       <br>
@@ -721,7 +701,6 @@
   </div>
 </div>
 
-<!-- ===== ÁUDIO ===== -->
 <audio id="bgAudio" loop preload="auto">
   <source src="https://raw.githubusercontent.com/RodrigueJoaossiquisse/Casamento-Uache-e-Adelcunde/main/aaa%20musica%20casamento.mp3" type="audio/mpeg">
 </audio>
